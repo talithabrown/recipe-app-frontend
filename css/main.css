@@ -1,0 +1,134 @@
+/* font-family: 'Comfortaa', cursive; text
+font-family: 'Dancing Script', cursive; h2
+font-family: 'Lobster', cursive; h1*/
+
+body {
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+    display: flex;
+    background-color: #283618;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #374725;
+}
+
+main {
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.2rem;
+    display: inline;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+}
+
+button {
+    background-color: #FAEDCD;
+    border: 1px solid #283618;
+    border-radius: 8px 0px;
+    padding: 10px 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+button:hover {
+    border: 2px solid #283618;
+}
+
+#get-all-recipes {
+    float: right;
+    margin-top: 4px;
+}
+
+#seach-div {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #E7C8A0;
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+#search-input {
+    height: 30px;
+    width: 100%;
+    font-family: 'Comfortaa', cursive;
+}
+
+.recipe-divs {
+    padding: 20px;
+    margin-top: 20px;
+    border: solid 3px #283618;
+    border-radius: 10px;
+    background-color: #FFFEF8;
+}
+
+/* ############################## POST PAGE ############################### */
+
+.add-button {
+    font-size: 0.7rem;
+    background-color: #aacc00;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.remove-button {
+    font-size: 0.7rem;
+    background-color: rgb(255, 126, 126);
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#name, #imageLink {
+    margin: 10px;
+}
+
+#post-form {
+    border: solid 2px #374725;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#post-form div {
+    margin: 10px;
+}
+
+#post-form label {
+    display: block;
+}
+
+#post-form input {
+    padding: 3px;
+}
+
+#save-button {
+    background-color: #FAEDCD;
+    border: 1px solid #283618;
+    border-radius: 8px 0px;
+    padding: 7px 15px;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+}
+
+#save-div {
+    text-align: center;
+}
+
+#save-button:hover {
+    border: 2px solid #283618;
+}

@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1200px) {
+
+    main {
+        max-width: 1100px;
+    }
+
+    #all-recipes-div {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1100px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .recipe-div {
+        width: 100%;
+    }
+
+    .recipe-divs:nth-child(even) {
+        justify-self: center;
+    }
+
+    .recipe-divs:nth-child(odd) {
+        justify-self: center;
+    }
+}
